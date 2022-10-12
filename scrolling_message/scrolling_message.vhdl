@@ -20,7 +20,7 @@ signal current_letter: std_logic_vector(0 to 63);
 signal shift_counter: unsigned(2 downto 0);
 
 constant char_length: integer := 34; -- amount of characters in message/string
-constant message: string(1 to char_length) := "THIS LAB WAS FUN THANK YOU RASOUL "; -- changing what message to display
+constant message: string(1 to char_length) := "IF YOU READ THIS HIRE ME "; -- changing what message to display
 
 signal one_char: character := ' ';
 signal integer_one_char: integer;
